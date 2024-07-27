@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dcdict"
+authors = [
+    {name = "Franklyn Vasquez", email = "franklynvasquez24@gmail.com"},
+]
+description = "Easily convert dataclasses to dictionaries, recursively and non-recursively"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+dynamic = ["version"]
